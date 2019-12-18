@@ -1,11 +1,57 @@
 *{
     box-sizing: border-box;
 }
+.main{
+    position:relative;
+    left:50%;
+        top:100px;
+    
+}
 .design{
-    background-color: aquamarine;
+    position:absolute;
+    background-color:black;
     border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
-    height:200px;
-    width:200px;
-    margin-left:50%;
-    margin-top:150px;
+    height:180px;
+    width:190px;
+    
     }
+.right{
+    position:absolute;
+    background-color: white;
+    height:70px;
+    width:70px;
+    border-radius: 50px;
+    left:170px;
+    top:30px;
+}
+.bottom{
+    position:absolute;
+    background-color: white;
+    height:70px;
+    width:70px;
+    border-radius: 50px;
+    left:60px;
+    top:170px;
+    
+}
+
+.top{
+    position:absolute;
+    background-color: white;
+    height:30px;
+    width:30px;
+    border-radius:50px;
+    left:80px;
+    top:-22px;
+   
+}
+.leaf{
+    position:absolute;
+    background-color:black;
+    height:50px;
+    width:50px;
+    border-top-left-radius: 50px;
+    left:90px;
+    top:-55px;
+    border-bottom-right-radius: 50px;
+}
